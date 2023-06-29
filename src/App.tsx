@@ -1,7 +1,15 @@
+import PostComponent from "./Post"
 
 function App() {
   return (
-   <h1>Hello World</h1>
+   
+   <div>
+      <PostComponent />
+      <PostComponent />
+      <PostComponent />
+      <PostComponent />
+      <PostComponent />
+   </div>
   )
 }
 
