@@ -1,14 +1,10 @@
-import PostComponent from "./Post"
+import { Post } from "./Post"
 
 function App() {
   return (
    
    <div>
-      <PostComponent />
-      <PostComponent />
-      <PostComponent />
-      <PostComponent />
-      <PostComponent />
+      <Post author="Vinicius Rolim" content="Aluno"/>
    </div>
   )
 }
